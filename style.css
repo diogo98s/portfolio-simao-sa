@@ -2,12 +2,23 @@ body {
 
     background: url("imgs/e8b6537c45ffad6f189eb43b54dd9556.jpg");
     background-size: cover;
-    background-position: center;
+background-position: center;
    
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-}
- 
+   /* background-repeat: no-repeat;
+   background-size: cover; */ 
+ }
+
+/* #bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    /* min-width: 100%;
+    min-height: 100%;
+  }
+  */ 
+
 li {
     background: rgba(227, 220, 237, 0.5);
     
@@ -19,6 +30,7 @@ img {
 
 h2 {
     color: white;
+    font-family: 'Pacifico', cursive;
 }
 
 /* 
@@ -35,7 +47,9 @@ h2 {
 
 h1 {
     color: white;
-       text-align: center;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding: 50px;
 }
 
 .thumbnail {
@@ -52,3 +66,18 @@ h1 {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.brand::first-letter {
+    /* font-family: 'Kalam', cursive; */
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.brand {
+    /* font-family: 'Kalam', cursive; */
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    
+}
