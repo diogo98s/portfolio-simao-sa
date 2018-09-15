@@ -1,0 +1,54 @@
+body {
+
+    background: url("imgs/e8b6537c45ffad6f189eb43b54dd9556.jpg");
+    background-size: cover;
+    background-position: center;
+   
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+ 
+li {
+    background: rgba(227, 220, 237, 0.5);
+    
+}
+img {
+    /* background: rgba(195, 177, 221, 0.5); */
+    
+}
+
+h2 {
+    color: white;
+}
+
+/* 
+.background {
+    width: 100px;  
+    background: rgba(195, 177, 221, 0.5); 
+} */
+
+
+.EP {
+    margin: 8px;
+}
+
+
+h1 {
+    color: white;
+       text-align: center;
+}
+
+.thumbnail {
+    background: rgba(0, 0, 0, 0.5);
+       
+} 
+
+/* .col-lg-6 {
+    background: rgba(0, 0, 0, 0.5);
+       
+}  */
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+}
+
